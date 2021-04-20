@@ -1,2 +1,2 @@
 # 🔥 javaScript
-🔥 javaScript
+🔥 javaScript.js
