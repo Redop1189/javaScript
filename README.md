@@ -12,5 +12,20 @@ console.log('Hello World');
 1. Variables
 ```javascript
 // This is Example of Variables
-var carName = "Volvo";
+let carName = "Volvo";
 ```
+
+2. Constants
+```javascript
+const carName = "Koenigsegg";
+```
+
+3. Primitive Types
+```javascript
+let name = "John";          // String Literal
+let age = 20;               // Number Literal
+let isApproved = true;      // Boolean Literal
+let firstName = undefined;  // 'undefined' Not so common
+let lastName = null;        // Clear the value of a Varaible 
+```
+
