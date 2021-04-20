@@ -19,7 +19,7 @@ let carName = "Volvo";
 ```javascript
 const carName = "Koenigsegg";
 ```
-
+### Primitive Types -
 3. Primitive Types
 ```javascript
 let name = "John";          // String Literal
@@ -30,4 +30,17 @@ let lastName = null;        // Clear the value of a Varaible
 
 // JavaScript is a Dynamic Language
 ```
+### Reference Types -
+4. Objects
+```javascript
+let person = {
+  name: 'John',
+  age: 20
+};
+// For selection
+// Dot Notation
+person.name = 'Harry';
 
+// Bracket Notation
+person['name'] = 'Harry';
+```
