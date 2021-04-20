@@ -25,7 +25,9 @@ const carName = "Koenigsegg";
 let name = "John";          // String Literal
 let age = 20;               // Number Literal
 let isApproved = true;      // Boolean Literal
-let firstName = undefined;  // 'undefined' Not so common
+let firstName = undefined;  // 'undefined' not so common
 let lastName = null;        // Clear the value of a Varaible 
+
+// JavaScript is a Dynamic Language
 ```
 
