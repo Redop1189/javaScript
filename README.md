@@ -42,5 +42,5 @@ let person = {
 person.name = 'Harry';
 
 // Bracket Notation
-person[name] = 'Harry';
+person['name'] = 'Harry';
 ```
