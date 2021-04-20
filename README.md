@@ -7,3 +7,10 @@
 ```javascript
 console.log('Hello World');
 ```
+## Basics
+
+1. Variables
+```javascript
+// This is Example of Variables
+var carName = "Volvo";
+```
