@@ -3,10 +3,30 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Javascript Logo" width="150px" />
 
+### Including JavaScript in an HTML Page
+```javascript
+<script type="text/javascript">
+//JS code goes here
+</script>
+```
+### Call an External JavaScript File
+```javascript
+<script src="myscript.js"></script><code></code>
+```
+
+### Including Comments
+```javascript
+// comment here
+Single line comments
+/* comment here */
+Multi-line comments
+```
+
 ### Printing 'Hello World' in javaScript console
 ```javascript
 console.log('Hello World');
 ```
+
 ## Basics
 
 1. Variables
