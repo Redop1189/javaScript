@@ -1,7 +1,7 @@
 # 🔥 javaScript Guide
 ### 🔥 javaScript.js
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Javascript Logo" width="150px" />
+<p align=center>  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Javascript Logo" width="150px" />  </p>
 
 ### Including JavaScript in an HTML Page
 ```javascript
