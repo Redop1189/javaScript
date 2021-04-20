@@ -48,6 +48,7 @@ person['name'] = 'Harry';
 5. Arrays
 ```javascript
 let selectedColors = ['red', 'blue'];
+
 // We can store 🏪 different types in an array
 ```
 
@@ -63,3 +64,14 @@ greet('Martha');
 // Functions are Fundamental building block
 ```
 
+6. Types of Functions
+```javascript
+// Performing a task
+
+// calculating a value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(2));
+```
