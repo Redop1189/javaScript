@@ -44,3 +44,22 @@ person.name = 'Harry';
 // Bracket Notation
 person['name'] = 'Harry';
 ```
+
+5. Arrays
+```javascript
+let selectedColors = ['red', 'blue'];
+// We can store 🏪 different types in an array
+```
+
+5. Functions
+```javascript
+function greet(name) {
+  console.log('Hello ' + name);     // Body of the function
+}
+
+greet('Jonas');                     // Calling a function
+greet('Martha');
+
+// Functions are Fundamental building block
+```
+
