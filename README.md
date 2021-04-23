@@ -33,6 +33,7 @@ Multi-line comments
 console.log('Hello World');
 ```
 <!-- -----------------------------Basics----------------------------- -->
+
 ## Basics
 
 <details>
@@ -118,6 +119,7 @@ console.log(square(2));
 
 </details>
 <!-- -----------------------------Operators----------------------------- -->
+
 ## Operators
 
 <details>
@@ -244,6 +246,7 @@ console.log(1 & 2); // Bitwise AND
 
 </details>
 <!-- -----------------------------Control Flow----------------------------- -->
+
 ## Control Flow
 
 <details>
