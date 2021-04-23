@@ -32,7 +32,7 @@ Multi-line comments
 ```javascript
 console.log('Hello World');
 ```
-
+<!-- -----------------------------Basics----------------------------- -->
 ## Basics
 
 <details>
@@ -117,7 +117,7 @@ console.log(square(2));
 ```
 
 </details>
-
+<!-- -----------------------------Operators----------------------------- -->
 ## Operators
 
 <details>
@@ -202,7 +202,7 @@ let type = points > 100 ? "gold" : "silver";
 console.log(type);
 ```
 
-5. Logical Operators with Booleans
+6. Logical Operators with Booleans
 
 ```javascript
 // Logical AND (&&)
@@ -217,7 +217,7 @@ console.log(true || true);
 let this = !that;
 ```
 
-6. Logical Operators with Non-Booleans
+7. Logical Operators with Non-Booleans
 
 ```javascript
 // Falsy (false)
@@ -228,7 +228,7 @@ let this = !that;
 // Short-Circuiting
 ```
 
-7. BitWise Operators
+8. BitWise Operators
 
 ```javascript
 // Binary
@@ -240,6 +240,122 @@ console.log(1 | 2); // Bitwise OR
 // Result = 3
 console.log(1 & 2); // Bitwise AND
 // Result = 0
+```
+
+</details>
+<!-- -----------------------------Control Flow----------------------------- -->
+## Control Flow
+
+<details>
+  <summary>'Control Flow Of Javascript'</summary>
+
+1. If..else
+
+```javascript
+if (condition) {
+  statement;
+} 
+else if (anotherCondition) {
+  statement;
+} 
+else if (yetAnotherCondition)          
+  statement;
+else 
+  statement;
+```
+
+2. Switch...case
+
+```javascript
+let role;
+
+switch (role) {
+  case 'guest': 
+    console.log('Guest User');
+    break;
+    
+  case 'moderator': 
+    console.log('Moderator User');
+    break;
+
+  default:
+    console.log('Unknown User')
+}
+```
+### Loops -
+
+3. For
+
+```javascript
+for (initialExpression; condition; incrementExpression) {
+  statement;
+}
+
+for (let i = 0; i < 5; i++)
+  console.log('Hello World', i);
+```
+
+4. While
+
+```javascript
+let initialExpression;
+while (condition) {
+  statements;
+  incrementExpression;
+}
+
+let i = 0;
+while (i < 5) {
+  console.log('Hello World', i);
+  i++;
+}
+```
+
+5. Do...While
+
+```javascript
+let initialExpression;
+do {
+  statements;
+  incrementExpression;
+} while (condition);
+```
+
+6. For...In
+
+```javascript
+const person = {
+  name: 'Jonas',
+  age: 20
+};
+
+for (let key in person)
+  console.log(key, person[key]);
+```
+
+7. For...of
+
+```javascript
+const colors = ['red', 'green', 'blue'];
+
+for (let color of colors)
+  console.log(key, colors[key]);
+```
+
+8. Break and Countinue
+
+```javascript
+let i = 0;
+while (i <= 10) {
+  if (i === 5) break;  // To Break statement
+  if (i % 2 === 0) {
+    i++;
+    continue:  // Jump to the next iteration
+  }
+
+  console.log(i);
+  i++;
+}
 ```
 
 </details>
